@@ -32,3 +32,12 @@ $ git diff readme.txt
  一大串类似1094adb...的是commit id（版本号），和SVN不一样
  Git的commit id不是1，2，3……递增的数字
  而是一个SHA1计算出来的一个非常大的数字，用十六进制表示.
+ 
+ #退回上一版本
+ git reset --hard HEAD^
+ 
+ #跳到某一版本
+ git reset --hard (commit id 版本号 见 git log指令)
+ 
+ #查看命令历史
+ git reflog
