@@ -26,3 +26,9 @@ create mode 100644 readme.txt
 $ git diff readme.txt
 
 修改完成后继续 git add 添加到仓库
+
+#git log命令显示从最近到最远的提交日志
+ git log --pretty=oneline
+ 一大串类似1094adb...的是commit id（版本号），和SVN不一样
+ Git的commit id不是1，2，3……递增的数字
+ 而是一个SHA1计算出来的一个非常大的数字，用十六进制表示.
