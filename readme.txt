@@ -41,3 +41,5 @@ $ git diff readme.txt
  
  #查看命令历史
  git reflog
+ 
+ 修改
