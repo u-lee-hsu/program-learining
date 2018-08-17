@@ -47,3 +47,17 @@ $ rm test.txt
 
 #git rm 类似git add 从版本库中删除
 git rm test.txt
+
+#直接用notepad++打开文本文件，将文本文件默认打开文件设置成NOTEPAD++
+start readme.txt
+
+#远程仓库
+1、创建SSH KEY 
+$ ssh-keygen -t rsa -C "youremail@example.com（github注册邮件地址）"
+在目录下打开 id_rsa.pub 复制其中的SSH Key 添加到github账户的SSH Keys页面。
+2、先在github新建git仓库
+3、在本地仓库运行 git remote add origin git@github.com:(github账户名）/仓库名.git
+4、git push -u origin master(把本地库内容推送到远程库)
+5、以后推送只需要输入 git push origin master
+
+
