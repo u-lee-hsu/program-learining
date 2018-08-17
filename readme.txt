@@ -60,4 +60,18 @@ $ ssh-keygen -t rsa -C "youremail@example.com（github注册邮件地址）"
 4、git push -u origin master(把本地库内容推送到远程库)
 5、以后推送只需要输入 git push origin master
 
+#git clone 远程仓库克隆
+git clone git@github.com:u-lee-hsu/Hello-world.git
+将远程仓库克隆到本地
 
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
