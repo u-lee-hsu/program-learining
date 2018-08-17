@@ -42,4 +42,8 @@ $ git diff readme.txt
  #查看命令历史
  git reflog
  
- 修改
+#rm命令,直接删除
+$ rm test.txt
+
+#git rm 类似git add 从版本库中删除
+git rm test.txt
