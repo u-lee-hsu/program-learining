@@ -76,4 +76,8 @@ git clone git@github.com:u-lee-hsu/Hello-world.git
 
 删除分支：git branch -d <name>
 
+<<<<<<< HEAD
 git branch test master
+=======
+branchtest
+>>>>>>> branchtest
