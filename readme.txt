@@ -81,3 +81,9 @@ git branch test master
 =======
 branchtest
 >>>>>>> branchtest
+
+当出现分支修改后，返回主干主干也修改，然后merge时候发现冲突
+git会在修改的文件中做提示，再次修改后可再次 add commit 完成合并
+使用$ git log --graph --pretty=oneline --abbrev-commit可查看主干分支情况
+
+fast forward test 
