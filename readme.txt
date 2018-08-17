@@ -87,3 +87,5 @@ git会在修改的文件中做提示，再次修改后可再次 add commit 完�
 使用$ git log --graph --pretty=oneline --abbrev-commit可查看主干分支情况
 
 fast forward test 
+
+bugfix
