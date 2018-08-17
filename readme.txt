@@ -88,4 +88,14 @@ git会在修改的文件中做提示，再次修改后可再次 add commit 完�
 
 fast forward test 
 
+<<<<<<< Updated upstream
 bugfix
+=======
+master edit
+>>>>>>> Stashed changes 
+
+在分支上编辑时，需要先开并完成另一分支，可用stash 将当前分支暂存
+待完成后，返回该分支用git stash apply恢复，用git stash drop删除
+或用git stash pop 回复并删除stash。
+git stash list查看
+$ git stash apply stash@{0}指定恢复某stash
