@@ -98,4 +98,4 @@ master edit
 待完成后，返回该分支用git stash apply恢复，用git stash drop删除
 或用git stash pop 回复并删除stash。
 git stash list查看
-$ git stash apply stash@{0}指定恢复某stash
+$ git stash apply stash@{0}指定恢复某stash 
